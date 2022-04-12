@@ -108,7 +108,8 @@ a.hover-2:before, a.hover-3:before {
 }
 
 .bg-soft-primary {
-  background-color: #fcf4f6 !important
+  background-color: #F7F8FF !important;
+
 }
 
 .text-soft-primary {
@@ -387,4 +388,38 @@ transition: border-radius 0.1s ease-out;
 
 .coll_text {
   padding: 20px;
+}
+
+.make-me-sticky {
+  position: -webkit-sticky;
+	position: absolute;
+	top: 0;
+
+  padding: 0 15px;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 13.5rem; /* Set the width of the sidebar */
+  position: sticky !important;
+  z-index: 1000; /* Stay on top */
+  top: 8rem; /* Stay at the top */
+  left: 0rem;
+  background-color: #fff;
+  border: 1px solid #EDEEF2;
+  border-radius:  0 0.8rem 0.8rem 0;
+  overflow-x: hidden !important;
+  padding: 1em 1.1em 1em 3em;
+  box-shadow:  0 0 1.25rem rgb(30 34 40 / 4%);
+  margin-top: 2em;
+}
+
+.menuside{
+  font-size: 18px;
+  padding: 0.8em 0.2em 0.8em 3em;
+  margin-bottom: 0em;
+}
+
+.first_info_text{
+  padding-left: 2.5em;
 }

@@ -37,7 +37,7 @@ Author:		elemis
 	--bs-light: #fefefe;
 	--bs-gray: #f6f7f9;
 	--bs-dark: #262b32;
-	--bs-primary: #3f78e0;
+	--bs-primary: #E3E7FF;
 	--bs-secondary: #aab0bc;
 	--bs-success: #45c4a0;
 	--bs-info: #54a8c7;
@@ -62,7 +62,7 @@ Author:		elemis
 	--bs-light-rgb: 254, 254, 254;
 	--bs-gray-rgb: 246, 247, 249;
 	--bs-dark-rgb: 38, 43, 50;
-	--bs-primary-rgb: 63, 120, 224;
+	--bs-primary-rgb: 211, 217, 255;
 	--bs-secondary-rgb: 170, 176, 188;
 	--bs-success-rgb: 69, 196, 160;
 	--bs-info-rgb: 84, 168, 199;
@@ -22894,7 +22894,7 @@ figure img {
 }
 
 .bg-soft-primary {
-	background-color: #f1f5fd!important
+	background-color: #F1F3FF !important
 }
 
 .text-soft-primary {
@@ -31761,15 +31761,16 @@ header {
 	}
 	.navbar.extended .navbar-collapse-wrapper,
 	.navbar.fancy .navbar-collapse-wrapper {
-		box-shadow: 0 .25rem .75rem rgba(30, 34, 40, .02);
+		box-shadow: 0 .25rem .75rem rgba(30, 34, 40, .08);
 		width: 100%;
-		border-radius: .4rem
+		border-radius: .8rem;
+		border-color: rgba(30, 34, 40) !important;
 	}
 	.navbar.extended:not(.fixed) .navbar-collapse-wrapper {
 		padding: 0 1.5rem 0 .5rem
 	}
 	.navbar.fancy:not(.fixed) .navbar-collapse-wrapper {
-		padding: 0 1.5rem 0 1.5rem;
+		padding: 0 2rem 0 1rem;
 		margin-top: 2.25rem
 	}
 	.navbar.extended .navbar-brand {

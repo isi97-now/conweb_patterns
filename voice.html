@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="it">
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="default-style">
+
+<head>
+  <title>Conweb</title>
+  <link rel="stylesheet" href="/voice.css">
+
+</head>
+<style>
+  #loader {
+    position: static;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    display: none;
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
+
+
+
+<body style="font-family: 'Karla', sans-serif; ">
+
+  <!-- logo -->
+  <div style="height: 20px"></div>
+  <div style="padding-top: 10px; display: flex; flex-direction: row; align-items: center; justify-content: center;">
+    <img src="/img/logo.svg" alt="conweb logo: a robot speaking with a human">
+  </div>
+  <div style="height: 30px"></div>
+
+  <!-- istruzioni interazione -->
+  <div class="info_text">
+    Premi <span class="strong">J</span> per consentire l'accesso al microfono. <br> Seleziona la <span class="strong">barra spaziatrice</span> e tieni premuto per registrare il tuo messaggio. <br>
+    Premi <span class="strong">F</span> per interrompere la risposta dell'agente.
+  </div>
+
+  <div style="height: 50px"></div>
+  <div style="padding-top: 10px; display: flex; flex-direction: row; align-items: center; justify-content: center;">
+    <div style="width: 50px"></div>
+  </div>
+
+
+  <!-- human -->
+  <div style="padding-top: 10px; display: flex; flex-direction: row; align-items: center; justify-content: center;">
+    <div class="frame_2">
+      <img src="/img/human.svg" alt="human icon" width="50px">
+      <label class="human_label" for="text_understood">
+        Comunica con l'agente
+      </label>
+      <label class="human_label_2">
+        Qui verrà visualizzato ciò che hai detto
+      </label>
+
+      <div style="height: 20px"></div>
+      <div id="text_understood" class="response">
+      </div>
+      <div style="height: 20px"></div>
+    </div>
+
+    <!-- <div style="width: 100px"></div> -->
+
+    <!-- robot -->
+    <div class="frame">
+      <img src="/img/robot.svg" alt="robot icon" width="50px">
+      <label class="robot_label" for="response">
+        Risposta dell'agente
+      </label>
+      <label class="robot_label_2">
+        Qui verrà visualizzata la risposta di ConWeb
+      </label>
+
+      <div style="height: 10px"></div>
+      <div id="loader" class="loader"></div>
+      <!-- stile risposta -->
+      <div id="response" class="response">
+      </div>
+      <div style="height: 20px"></div>
+    </div>
+
+  </div>
+  <div style="height: 50px"></div>
+</body>
+
+<script src="static/js/config.js"></script>
+<script src="static/js/record_audio.js"></script>
+<script src="static/js/audio.js"></script>
+<script src="static/js/voice.js"></script>
+<script src="static/js/socket_data.js"></script>
+
+</html>
