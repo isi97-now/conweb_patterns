@@ -4,22 +4,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
-  <meta name="keywords" content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup">
+  <meta name="description" content="A patterns library focussed on informational websites organized around four + 1 key design questions.">
+  <meta name="keywords" content="conversational web, conweb, conversational agent, chatbot, patterns, solutions, interaction design, inclusive design, communication design">
   <meta name="author" content="elemis">
-  <title>Sandbox - Modern & Multipurpose Bootstrap 5 Template</title>
+  <title>Patterns ConWeb</title>
   <link rel="shortcut icon" href="/assets/img/favicon.png">
   <link rel="stylesheet" href="/assets/css/plugins.css">
   <link rel="stylesheet" href="/assets/css/style.css">
-
   <link rel="stylesheet" href="/assets/css/colors/pink.css">
-
   <link href='dragula.css' rel='stylesheet' type='text/css' />
   <link href='/example/example.css' rel='stylesheet' type='text/css' />
-
-
-
 </head>
 
 <body>
@@ -28,7 +22,6 @@
       <nav class="navbar navbar-expand-lg fancy navbar-light navbar-bg-light">
         <div class="container">
           <div class="navbar-collapse-wrapper bg-white d-flex">
-
             <div class="navbar-brand w-100">
               <a href="./index.html">
                 <img src="./assets/img/svg/logo.png" srcset="./assets/img/svg/logo.png" alt="logo conweb" />
@@ -39,18 +32,24 @@
                 <a href="./index.html"><img src="./assets/img/svg/logo.png" srcset="./assets/img/svg/logo.png" alt="logo conweb" /></a>
                 <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-nav-close" aria-label="Close"></button>
               </div>
-
             </div>
-
             <!-- /.navbar-collapse -->
             <div class="navbar-other w-100 d-flex ms-auto">
               <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
                 <li class="nav-item d-lg-none">
-                <li class="nav-item dropdown"><a class="nav-link" href="./voice.html">Demo</a>
+                <li class="nav-item dropdown"><a class="nav-link" href="./voice.html"> Demo </a>
                 </li>
                 </li>
                 <li class="nav-item d-lg-none">
-                <li class="nav-item dropdown"><a class="nav-link" href="#!">Glossary</a>
+                <li class="nav-item dropdown"><a class="nav-link" href="#!"> Glossary </a>
+                </li>
+                </li>
+                <li class="nav-item d-lg-none">
+                <li class="nav-item dropdown"><a class="nav-link" href="#!"> Related Work </a>
+                </li>
+                </li>
+                <li class="nav-item d-lg-none">
+                <li class="nav-item dropdown"><a class="nav-link" href="#!"> About </a>
                 </li>
                 </li>
               </ul>
@@ -107,9 +106,10 @@
         <div class=" first_info_text offset-lg-3 col-xxl-8 text-center text-lg-start" style="margin-top: -13.5rem; margin-bottom: 5rem">
 
           <h2 class=" display-4 mb-3">Our user research <i class="uil uil-search-alt"></i> lead to a collection of the most insightful
-            <span class="underline green">challenges</span> to provide successful conversational <i class="uil uil-comments"></i> UX <span class="underline red">solutions.</span></h2>
+            <span class="underline red">challenges</span> to provide successful conversational <i class="uil uil-comments"></i> UX <span class="underline green">solutions </span><i class="uil uil-pen"></i>
+          </h2>
           <p class="lead fs-25 lh-sm mb-6 px-md-10 px-lg-0">Discover each one by rearranging all the <a class="hover link-body" href="#ch-1"><i>conversations</i></a></p>
-          </div>
+        </div>
       </section>
 
 
@@ -614,20 +614,16 @@
 
 
     <script>
-      var coll = document.getElementsByClassName("collapsible");
-      var i;
+// smooth scrolling
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
 
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if (content.style.maxHeight) {
-            content.style.maxHeight = null;
-          } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-          }
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
         });
-      }
+      });
     </script>
     <script src='dragula.js'></script>
     <script src='/example/example.min.js'></script>
