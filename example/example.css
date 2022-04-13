@@ -232,7 +232,16 @@
   max-height: 60px;
 }
 
-.bubble{
+.bubble {
 
-/* -webkit-animation: loader-scale 1s ease-out infinite; */
+
+
+}
+
+.bubble img {
+  transition: all 0.35s ease-in-out;
+}
+
+.bubble:hover img {
+  transform: scale(1.05);
 }
