@@ -49,7 +49,7 @@
                 </li>
                 </li>
                 <li class="nav-item d-lg-none">
-                <li class="nav-item dropdown"><a class="nav-link" href="#!"> About </a>
+                <li class="nav-item dropdown"><a class="nav-link" href="/cards.html"> About </a>
                 </li>
                 </li>
               </ul>
@@ -97,7 +97,7 @@
       <nav class="col-sm-2 sidenav ">
         <ul class="icon-list bullet-grey menuside">
           <li><span><i class="uil uil-arrow-right"></i></span><a class="space" href="#orientational">Orientational Challenges</a></li>
-          <li><span><i class="uil uil-arrow-right"></i></span><a class="space" href="#ch-1">Navigational Challenges</a></li>
+          <li><span><i class="uil uil-arrow-right"></i></span><a class="space" href="#navigational">Navigational Challenges</a></li>
           <li><span><i class="uil uil-arrow-right"></i></span><a class="space" href="#ch-1">Content fruition Challenges</a></li>
           <li><span><i class="uil uil-arrow-right"></i></span><a class="space" href="#ch-1">Scaffolding Challenges</a></li>
         </ul>
@@ -109,10 +109,41 @@
           <h2 class=" display-4 mb-3">Our user research <i class="uil uil-search-alt"></i> lead to a collection of the most insightful
             <span class="underline red">challenges</span> to provide successful conversational <i class="uil uil-comments"></i> UX <span class="underline green">solutions </span><i class="uil uil-pen"></i>
           </h2>
-          <p class="lead fs-25 lh-sm mb-6 px-md-10 px-lg-0">Discover each one by rearranging all the <a class="hover link-body" href="#ch-1"><i>conversations</i></a></p>
-        </div>
+          <p class="lead fs-25 lh-sm mb-6 px-md-10 px-lg-0">Discover each one by rearranging all the <a style="cursor: pointer; color: #4A5DC8;" class="hover link-body" data-bs-toggle="modal" data-bs-target="#modal-02"><i>conversations</i></a></p>
 
+          <div class="modal fade" id="modal-02" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-md">
+              <div class="modal-content text-center">
+                <div class="modal-body">
+                  <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <!-- /.row -->
+                  <h3>Conversational concepts</h3>
+                  <p class="dida" >We designed three different hypothetical conversational agents to explain how patterns can be employed.</p>
+
+                    <div class="row">
+                      <div class="col-md-12">
+                        <!-- Begin Mailchimp Signup Form -->
+
+                        <div class="container">
+
+                            <div class="basic-slider owl-carousel dots-closer">
+                              <div class="item"><img src="./assets/img/photos/pp7.png" class="rounded" alt="" /></div>
+                              <div class="item"><img src="./assets/img/photos/pp7.png" class="rounded" alt="" /></div>
+                              <div class="item"><img src="./assets/img/photos/pp7.png" class="rounded" alt="" /></div>
+                            </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </section>
+
 
 
 
@@ -122,7 +153,7 @@
           <div class="row align-items-center">
 
             <!-- ECCO QUI ESEMPIO HELP -->
-            <div id="orientational" class="offset-lg-3 col-xxl-8 text-center text-lg-start" style="padding-top: 4rem">
+            <div id="navigational" class="offset-lg-3 col-xxl-8 text-center text-lg-start" style="padding-top: 4rem">
               <p class="lead fs-20 mb-5">Navigational Challenges</p>
 
               <h2 class="display-4 mb-3">Once oriented, how can the user <span class="underline">navigate</span> the website according to different goals?</h2>
@@ -140,21 +171,25 @@
                       <div class="coll_text">
                         <p>A solution extracted from the challenge about enabling the saving of “chosen information”,
                           allowing an intervention on default <mark>explorational experiences</mark> through the medium of “navigational checkpoints”:
-                          a mechanism that enhances orientaional processes by allowing the browsing through user-labelled nodes. </p>
-                      </div>
+                          a mechanism that enhances orientaional processes by allowing the browsing through user-labelled nodes.</p>
+
                       <div class="alert alert-info alert-icon" role="alert">
                         <i class="uil uil-lightbulb-alt"></i> Useful tip: <br> Add customization options in order to allow the user to customise their choice,
                         enhancing memorability with personalised labelling.
                       </div>
-                      <hr class="my-8" />
-                      <div id="check" class="alert alert-secondary alert-icon" role="alert">
-                        <i id="check_2" class="uil uil-comment-dots"></i> Rearrange the conversation in the exact order!
+                      <hr class="my-8"/>
+                      <div id="message" class="alert alert-secondary alert-icon" role="alert">
+                        <i id="check_2" class="uil uil-comment-dots"></i> <span id="demo">Rearrange the conversation in the exact order!</span>
                       </div>
                       <!-- inizio dragndrop -->
                       <div class='parent'>
                         <div class='wrapper'>
-                          <div id='left-copy-1tomany' class='container_1'>
+                          <div class="col-lg-12 " style="display: flex; flex-wrap: wrap; align-content: center;">
+                            <p style="padding: 0 1.5em">Conversational Blocks</p>
+                            <p style="padding: 0 4em 0 7.5em">EXAMPLE CONVERSATION</p>
+                          </div>
 
+                          <div id='left-copy-1tomany' class='container_1'>
                             <div class='bubble' id="i1">
                               <div><img src="./assets/img/svg/block_1.svg">
                               </div>
@@ -217,7 +252,6 @@
                                 <img src="./assets/img/svg/bubble_7.svg">
                               </div>
                             </div>
-
                           </div>
                           <div id='right-copy-1tomany' class='container_2'>
                           </div>
@@ -244,8 +278,8 @@
                       <div id="check_3" class="alert alert-secondary alert-icon" role="alert">
                         <i id="check_4" class="uil uil-comment-dots"></i> Rearrange the conversation in the exact order!
                       </div>
-
                       <div class='parent'>
+
                         <div class='wrapper'>
                           <div id='left-copy-2tomany' class='container_1'>
 
@@ -313,6 +347,7 @@
                             </div>
                           </div>
                           <div id='right-copy-2tomany' class='container_2'>
+
                           </div>
                         </div>
                         <hr class="my-8" />
@@ -616,7 +651,7 @@
 
 
     <script>
-// smooth scrolling
+      // smooth scrolling
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
           e.preventDefault();

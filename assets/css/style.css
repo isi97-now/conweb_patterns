@@ -4106,7 +4106,7 @@ textarea.form-control.is-invalid {
 }
 
 .fade {
-	transition: opacity .15s linear
+	transition: opacity .2s linear
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -21793,7 +21793,7 @@ h6 {
 }
 
 .lead {
-	line-height: 1.65
+	line-height: 1.65;
 }
 
 .lead.fs-lg {
@@ -33602,7 +33602,7 @@ button.hamburger.animate.active:after {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	margin-top: 2rem;
+	margin-top: 0.5rem;
 	line-height: 1
 }
 

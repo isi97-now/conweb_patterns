@@ -2,7 +2,7 @@
   color: #ffffff;
   border: 1px;
   width: 50% !important;
-  vertical-align: middle;
+  vertical-align: top;
   border-radius:20px;
 }
 
@@ -11,7 +11,7 @@
   margin: 10px;
   padding: 2px;
   transition: opacity 0.2s ease-in;
-  vertical-align: middle;
+  vertical-align: top;
   width: 50% !important;
   border-radius:20px;
 }
@@ -24,8 +24,12 @@
 }
 
 .container_1 img{
-  max-height: 50px;
+  max-height:2.5em;
 }
+
+/* .container_2 img{
+  max-height:2.5em;
+} */
 
 .gu-mirror {
   cursor: grabbing;
@@ -56,7 +60,7 @@
 .container_1:nth-child(odd) {
   color: #ffffff;
   border: 1px;
-  vertical-align: middle;
+  vertical-align: top;
   width: 50% !important;
   border-radius:20px;
 }
@@ -65,16 +69,17 @@
   display: table-cell;
   width: 50% !important;
   border-radius:20px;
+
 }
 
 .container_2 {
   display: table-cell;
   color: #ffffff;
   border: 1px;
-  border-left: 1px solid #F4F4F4;
+  border-left: 2px solid #F4F4F4;
   width: 50% !important;
-  vertical-align: middle;
-  border-radius:20px;
+  vertical-align: top;
+  /* border-radius:20px; */
 }
 
 
@@ -110,6 +115,8 @@
   background-color: rgba(255, 255, 255, 0.3);
   width: 50% !important;
 }
+
+
 
 #left-lovehandles>div,
 #right-lovehandles>div {
@@ -226,16 +233,6 @@
 
 */ .container_1 {
   display: table-cell;
-}
-
-.container_x img{
-  max-height: 60px;
-}
-
-.bubble {
-
-
-
 }
 
 .bubble img {

@@ -368,11 +368,11 @@ transition: border-radius 0.1s ease-out;
   margin-left: 5px;
 }
 
-.active:after {
-  content: "\2212";
+/* .active:after {
+  content: "";
 	color: #f2f2f2;
 
-}
+} */
 
 .content {
   padding: 0 18px 0 18px;
@@ -422,4 +422,16 @@ transition: border-radius 0.1s ease-out;
 
 .first_info_text{
   padding-left: 2.5em;
+}
+
+.dida {
+  font-size: 0.8em;
+}
+
+.red_message {
+  background-color: #FCF7F7;
+}
+
+.green_message {
+  background-color: #EDFFF2;
 }
