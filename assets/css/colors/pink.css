@@ -1,5 +1,5 @@
 .accordion-wrapper .card-header button, .accordion-wrapper .card-header button:before, .accordion-wrapper .card-header button:hover, .banner--stick.transparent.navbar-dark .nav-link:focus, .banner--stick.transparent.navbar-dark .nav-link:hover, .banner--stick:not(.navbar-dark).navbar-dark .nav-link:focus, .banner--stick:not(.navbar-dark).navbar-dark .nav-link:hover, .bg-dark.text-inverse a:not(.btn):not([class*=link-]):hover, .breadcrumb-item a:hover, .btn-check:active+.btn-outline-primary, .btn-check:checked+.btn-outline-primary, .btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.disabled, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active, .btn-outline-primary:disabled, .btn-soft-primary, .btn-soft-primary:hover, .btn-white.btn-play:hover, .collapse-link, .collapse-link:hover, .dropdown-header, .dropdown-item.active, .dropdown-item:active, .dropdown-item:focus, .dropdown-item:hover, .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active, .dropdown-toggle::after, .external:hover, .external:hover:after, .filter.basic-filter ul li a.active, .filter.basic-filter ul li a:hover, .filter:not(.basic-filter) ul li a.active, .filter:not(.basic-filter) ul li a:hover, .icon-list.bullet-primary i, .icon-list.bullet-soft-primary i, .link-primary, .link-primary:focus, .link-primary:hover, .nav-link:focus, .nav-link:hover, .nav-pills .nav-link.active, .nav-pills .show>.nav-link, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active, .navbar-dark.transparent.banner--stick .navbar-nav:not(.sm-collapsible) .nav-link .sub-arrow, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-text a, .navbar-light .navbar-text a:focus, .navbar-light .navbar-text a:hover, .navbar-nav:not(.sm-collapsible) .nav-link .sub-arrow, .page-item.active .page-link, .page-link:focus, .page-link:hover, .plyr--full-ui input[type=range], .post-meta li a:hover, .progress-wrap:after, .text-inverse a:not(.btn):hover, .unordered-list.bullet-primary li:before, [class*=offcanvas-].text-inverse a:not(.btn):not([class*=link-]):hover, a, a:hover {
-  color: #4A5DC8
+  color:
 }
 
 .icon-list.bullet-bg i.bullet-white, .icon-list.bullet-bg i[class*=bullet-soft-primary], .icon-list.bullet-white i, .link-dark:hover, .list-unstyled li a.active, .plyr__control--overlaid:focus, .plyr__control--overlaid:hover, .sidebar nav .nav-link.active, .text-primary, .text-reset a:hover, a.text-reset:hover {
@@ -421,6 +421,7 @@ transition: border-radius 0.1s ease-out;
   color: #333333;
 }
 
+
 .menu_item{
     color: #333333 !important;
 }
@@ -428,6 +429,7 @@ transition: border-radius 0.1s ease-out;
 .menu_item:hover{
   color: #4A5DC8 !important;
 }
+
 
 .first_info_text{
   padding-left: 2.5em;
@@ -443,4 +445,28 @@ transition: border-radius 0.1s ease-out;
 
 .green_message {
   background-color: #EDFFF2;
+}
+
+.content_button{
+	color: #333333;
+}
+
+.content_button:hover{
+	color: #AE5B77 !important;
+}
+
+button.content_button:active {
+		color: #AE5B77 !important;
+}
+
+.navigation_button{
+	color: #333333;
+}
+
+.navigation_button:hover{
+	color: #567979 !important;
+}
+
+button.navigation_button:active {
+		color: #567979 !important;
 }

@@ -21963,7 +21963,7 @@ h6 {
 }
 
 .underline.red:after {
-	background: rgba(226, 98, 107, .12)
+	background: rgba(226, 98, 107, .22)
 }
 
 .underline.orange:after {
@@ -21975,7 +21975,7 @@ h6 {
 }
 
 .underline.green:after {
-	background: rgba(69, 196, 160, .12)
+	background: rgba(86, 121,121, .18)
 }
 
 .underline.leaf:after {
@@ -22822,11 +22822,11 @@ figure img {
 }
 
 .bg-soft-red {
-	background-color: #fdf3f4!important
+	background-color: #FFF8FA!important
 }
 
 .text-soft-red {
-	color: #fdf3f4!important
+	color: #FFF8FA!important
 }
 
 .bg-soft-orange {
@@ -22838,11 +22838,11 @@ figure img {
 }
 
 .bg-soft-green {
-	background-color: #f1fbf8!important
+	background-color: #F0FBFB!important
 }
 
 .text-soft-green {
-	color: #f1fbf8!important
+	color: #F0FBFB!important
 }
 
 .bg-soft-leaf {
@@ -23098,11 +23098,11 @@ figure img {
 }
 
 .bg-gradient-red {
-	background: linear-gradient(180deg, #fdf3f4, rgba(255, 255, 255, 0) 100%)
+	background: linear-gradient(180deg, #FFF8FA, rgba(255, 255, 255, 0) 100%)
 }
 
 .bg-gradient-reverse-red {
-	background: linear-gradient(0deg, #fdf3f4, rgba(255, 255, 255, 0) 100%)
+	background: linear-gradient(0deg, #FFF8FA, rgba(255, 255, 255, 0) 100%)
 }
 
 .bg-gradient-orange {
@@ -23114,11 +23114,11 @@ figure img {
 }
 
 .bg-gradient-green {
-	background: linear-gradient(180deg, #f1fbf8, rgba(255, 255, 255, 0) 100%)
+	background: linear-gradient(180deg, #F0FBFB, rgba(255, 255, 255, 0) 100%)
 }
 
 .bg-gradient-reverse-green {
-	background: linear-gradient(0deg, #f1fbf8, rgba(255, 255, 255, 0) 100%)
+	background: linear-gradient(0deg, #F0FBFB, rgba(255, 255, 255, 0) 100%)
 }
 
 .bg-gradient-leaf {
@@ -23399,12 +23399,12 @@ figure img {
 
 .wrapper.bg-soft-red.angled.lower-start:after,
 .wrapper.bg-soft-red.angled.upper-start:before {
-	border-left-color: #fdf3f4
+	border-left-color: #FFF8FA
 }
 
 .wrapper.bg-soft-red.angled.lower-end:after,
 .wrapper.bg-soft-red.angled.upper-end:before {
-	border-right-color: #fdf3f4
+	border-right-color: #FFF8FA
 }
 
 .wrapper.bg-pale-red.angled.lower-start:after,
@@ -23489,12 +23489,12 @@ figure img {
 
 .wrapper.bg-soft-green.angled.lower-start:after,
 .wrapper.bg-soft-green.angled.upper-start:before {
-	border-left-color: #f1fbf8
+	border-left-color: #F0FBFB
 }
 
 .wrapper.bg-soft-green.angled.lower-end:after,
 .wrapper.bg-soft-green.angled.upper-end:before {
-	border-right-color: #f1fbf8
+	border-right-color: #F0FBFB
 }
 
 .wrapper.bg-pale-green.angled.lower-start:after,
@@ -24241,7 +24241,7 @@ blockquote.text-center.icon-top:before {
 
 .icon-list li {
 	position: relative;
-	padding-left: 1.25rem
+	padding-left: 1.5rem
 }
 
 .icon-list.bullet-bg li {
@@ -32231,7 +32231,7 @@ button.hamburger.animate.active:after {
 	border: 0;
 	font-size: .85rem;
 	font-weight: 700;
-	color: #3f78e0;
+	/* color: #3f78e0; */
 	transition: all 150ms ease-in-out;
 	background: 0 0
 }
@@ -32868,6 +32868,18 @@ button.hamburger.animate.active:after {
 	color: #4A5DC8;
 	background-color: #F1F3FF;
 	border-color: #E9ECFF
+}
+
+.alert-info_g {
+	color: #567979;
+	background-color: #E8FAFA;
+	border-color: #D0EFEF
+}
+
+.alert-info_c {
+	color: #997452;
+	background-color: #FFF2EA;
+
 }
 
 .alert-info .alert-link {
@@ -40666,7 +40678,7 @@ video.player {
 }
 
 .shape.soft-red .svg-fill {
-	fill: #fdf3f4
+	fill: #FFF8FA
 }
 
 .shape.pale-red .svg-fill {
@@ -40702,7 +40714,7 @@ video.player {
 }
 
 .shape.soft-green .svg-fill {
-	fill: #f1fbf8
+	fill: #F0FBFB
 }
 
 .shape.pale-green .svg-fill {
@@ -41316,4 +41328,16 @@ footer.bg-dark.angled.upper-start:before {
 .conversations {
   display: flex !important;
     align-items: center !important;
+}
+
+.content_button{
+	color: #333333;
+}
+
+.content_button:hover{
+	color: #AE5B77 !important;
+}
+
+button.content_button:active {
+		color: #AE5B77 !important;
 }
