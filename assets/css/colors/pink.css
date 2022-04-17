@@ -416,8 +416,17 @@ transition: border-radius 0.1s ease-out;
 
 .menuside{
   font-size: 18px;
-  padding: 0.8em 0.2em 0.8em 3em;
+  padding: 1em 0.2em 1em 3em;
   margin-bottom: 0em;
+  color: #333333;
+}
+
+.menu_item{
+    color: #333333 !important;
+}
+
+.menu_item:hover{
+  color: #4A5DC8 !important;
 }
 
 .first_info_text{

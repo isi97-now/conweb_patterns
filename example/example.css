@@ -53,8 +53,8 @@
 
 .container_1 {
   display: table-cell;
-  border-radius: 0, 0, 20px, 20px;
   width: 50% !important;
+  border-right: 2px solid #F4F4F4;
 }
 
 .container_1:nth-child(odd) {
@@ -65,28 +65,29 @@
   border-radius:20px;
 }
 
-.container_1 {
-  display: table-cell;
-  width: 50% !important;
-  border-radius:20px;
 
-}
 
 .container_2 {
   display: table-cell;
   color: #ffffff;
   border: 1px;
-  border-left: 2px solid #F4F4F4;
   width: 50% !important;
   vertical-align: top;
-  /* border-radius:20px; */
+  border-radius:20px;
+}
+
+.container_2 > :first-child {
+  padding-top: 1rem;
+}
+
+.container_2 > :last-child {
+  padding-bottom: 0.7rem;
 }
 
 
 .container_2>div,
 .gu-mirror {
-  margin: 10px;
-  padding: 10px;
+  padding: 0.3rem 1rem 0.1rem 1rem;
   transition: opacity 0.2s ease-in;
   width: 50% !important;
   border-radius:20px;
