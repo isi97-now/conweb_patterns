@@ -470,3 +470,15 @@ button.content_button:active {
 button.navigation_button:active {
 		color: #567979 !important;
 }
+
+.orient_button{
+	color: #333333;
+}
+
+.orient_button:hover{
+	color: #997452 !important;
+}
+
+button.orient_button:active {
+		color: #997452 !important;
+}

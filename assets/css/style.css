@@ -250,7 +250,8 @@ small {
 .mark,
 mark {
 	padding: .05rem .4rem .2rem;
-	background-color: #fcf8e3
+	background-color: #fcf8e3;
+
 }
 
 sub,
@@ -21967,7 +21968,7 @@ h6 {
 }
 
 .underline.orange:after {
-	background: rgba(247, 139, 119, .12)
+	background: rgba(241, 192, 148, .42)
 }
 
 .underline.yellow:after {
@@ -22830,7 +22831,7 @@ figure img {
 }
 
 .bg-soft-orange {
-	background-color: #fef6f5!important
+	background-color: #FFF6EE!important
 }
 
 .text-soft-orange {
