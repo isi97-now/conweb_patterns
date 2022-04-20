@@ -243,3 +243,7 @@
 .bubble:hover img {
   transform: scale(1.05);
 }
+
+.reward {
+  max-width: 10em !important;
+}

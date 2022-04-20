@@ -404,6 +404,7 @@ transition: border-radius 0.1s ease-out;
   position: sticky !important;
   z-index: 1000; /* Stay on top */
   top: 8rem; /* Stay at the top */
+
   left: 0rem;
   background-color: #fff;
   border: 1px solid #EDEEF2;
