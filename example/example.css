@@ -247,3 +247,22 @@
 .reward {
   max-width: 10em !important;
 }
+
+@keyframes mymove {
+  50% {transform: rotate(5deg);}
+}
+
+
+.bubble_c:hover img {
+  animation: mymove 2s
+
+}
+
+.bubble_c {
+  transition: all 0.35s ease-in-out;
+}
+
+.bubble_c:hover {
+  transform: scale(1.05);
+
+}
