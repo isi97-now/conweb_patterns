@@ -1,6 +1,6 @@
 /*  Needed for filters */
 
-/* .hide { 
+/* .hide {
   animation: hide 2s ease 0s 1 normal forwards;
 
 }
@@ -12,14 +12,19 @@
 
 .hide { /* You can play with the seconds to change the "animation" */
 display: none;
+opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
 
 }
 .show { /* You can play with the seconds to change the "animation" */
 display: block;
+	opacity: 1;
 
 }
 
-@keyframes hide {
+
+
+/* @keyframes hide {
   0%{
     transform: scale(1);
   }
@@ -40,7 +45,7 @@ display: block;
   100% {
     transform: scale(1);
   }
-}
+} */
 
 
 .projects {
@@ -71,6 +76,7 @@ display: block;
 }
 .filter:hover {
   cursor: pointer;
+  color: #4A5DC8;
 }
 
 /* // For decoration only */
