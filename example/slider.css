@@ -1,0 +1,32 @@
+.wrapper_2{
+    width: 1200px;
+    overflow-x:scroll;
+    white-space: nowrap;
+
+}
+
+.wrapper_2 img{
+opacity: 0.3;
+  filter: grayscale(100%);
+}
+
+.wrapper_2 img:hover{
+opacity: 1;
+cursor:pointer;
+  filter: grayscale(0%);
+}
+
+.slide{
+    background: #ccc;
+    height: 700px;
+    display: inline-block;
+    width: 400px;
+}
+
+#slider4 {
+      height: 500px;
+      display: flex;
+    align-items: center;
+    vertical-align: middle;
+
+}
