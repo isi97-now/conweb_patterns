@@ -502,7 +502,7 @@ button.orient_button:active {
 
 /* Media queries */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1400px) {
   body {
     /* background-color: lightblue; */
   }
@@ -516,9 +516,9 @@ button.orient_button:active {
      left: 0;
      right: 0;
      bottom: 0;
-     background-color: rgba(0,0,0,0.8);
+     background-color: rgba(236,238,255,0.9);
      z-index: 2000;
-     cursor: pointer;
+
 }
 
 #text{
@@ -531,4 +531,9 @@ button.orient_button:active {
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
 }
+}
+
+.help{
+  text-align: right;
+  padding-right: 2em
 }
