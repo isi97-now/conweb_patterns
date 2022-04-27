@@ -39439,9 +39439,9 @@ footer {
 }
 
 .itooltip-light.itooltip-inner {
-	background: rgba(255, 255, 255, .9);
+
 	box-shadow: 0 0 1.25rem rgba(30, 34, 40, .04);
-	color: inherit
+
 }
 
 .itooltip-dark.itooltip-inner {
@@ -39517,7 +39517,8 @@ footer {
 }
 
 .itooltip-light.itooltip-inner {
-	background: rgba(254, 254, 254, .9)
+	background: rgba(241, 243, 255, .9);
+
 }
 
 .itooltip-gray.itooltip-inner {
@@ -39549,7 +39550,7 @@ footer {
 }
 
 [class*=itooltip-]:not(.itooltip-light).itooltip-inner * {
-	color: #fff
+	background: rgba(241, 243, 255, .9);
 }
 
 .lift {
